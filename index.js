@@ -16,7 +16,7 @@ app.use("/order", OrderRouter)
 const PORT = 5000 || process.env.PORT;
 
 // const uri = 'mongodb://127.0.0.1:27017/shop'
-const uri = 'mongodb+srv://muxriddinshavkatov1:<password>@mukhriddin.clqhabl.mongodb.net/?retryWrites=true&w=majority&appName=Mukhriddin'
+const uri = 'mongodb+srv://muxriddinshavkatov1:LJAAYFkd8VDuQNyU@mukhriddin.clqhabl.mongodb.net/?retryWrites=true&w=majority&appName=Mukhriddin'
 
 mongoose.connect(uri, {
     useNewUrlParser: true,
